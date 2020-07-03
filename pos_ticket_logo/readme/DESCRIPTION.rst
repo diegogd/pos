@@ -2,7 +2,7 @@ A different receipt template is used if the PoS ticket is printed via web or
 via proxy. In the case the ticket is printed via web (through the browser) the
 company logo isn't printed. This module adds it.
 
-In other hand, company_logo is loaded using `/web/binary/company_logo`
+In other hand, company_logo is loaded using `/web/image/company_logo`
 controller `that returns a 150px wide logo <https://github.com/odoo/odoo/blob/11.0/addons/point_of_sale/static/src/js/models.js#L481>`_:
 
 but after that logo is resized to 300px width, so a pixelled logo appears even
